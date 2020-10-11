@@ -1,0 +1,1 @@
+# android-tipitaka-pali-projector
