@@ -1,4 +1,4 @@
-package com.example.tipitakapaliprojector
+package com.paauk.tipitakapaliprojector
 
 import org.junit.Test
 
