@@ -701,13 +701,11 @@ body.show-page-numbers p.b1 span.font10 {
     border-radius: 5px; /* 5px rounded corners */
   }
 
-  
     .ui-dialog-titlebar-close {
         width: 90px !important;
         height: 43px !important;
         top: 23% !important;
     }
-
     .ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-buttonpane { font-size: 1.25em; }
 
 

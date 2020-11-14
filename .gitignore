@@ -15,5 +15,4 @@
 /captures
 .externalNativeBuild
 .cxx
-/app/build/intermediates/merged_assets/debug/out/tipitaka_projector_data
-/app/src/main/assets/tipitaka_projector_data/
+
