@@ -3,6 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    signingConfigs {
+        key3 {
+            storeFile file('/home/bhante/Desktop/keystore/androidbhantekey3.jks')
+            storePassword 'Hantanna.1'
+            keyAlias 'key3'
+            keyPassword 'Hantanna.1'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
 
@@ -20,6 +28,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.key3
         }
     }
 }
