@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             allowFileAccessFromFileURLs = true
             allowUniversalAccessFromFileURLs = true
             displayZoomControls = false
-            builtInZoomControls = true
+            builtInZoomControls = true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
             useWideViewPort = true
             loadWithOverviewMode = true
         }
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE)
 
-//        webView.settings.javaScriptEnabled = true
+//        webView.settings                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .javaScriptEnabled = true
   //      webView.addJavascriptInterface(JSBridge(this), "JSBridge")
         webView.loadUrl("file:///android_asset/tipitaka_projector_data/index.htm")
 

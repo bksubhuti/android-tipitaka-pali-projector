@@ -1,3 +1,6 @@
+html {
+  touch-action: manipulation;
+}
 @font-face {
 	font-family: DejaVuSansCondensed;
 	src: url('../fonts/DejaVuSansCondensed.ttf');
